@@ -1,5 +1,4 @@
 package com.company;
-import java.util.Scanner;
 public class Main
 {
     public static void main(String[] args)
@@ -21,7 +20,7 @@ public class Main
         //Sortering so = new Sortering();
         //System.out.print(so.sort());
 
-// Case c = new Case();
+        // Case c = new Case();
         //System.out.println(c.ret("Hej med dig HVORDAN går DET abcdefg"));
         //Square s = new Square(16, "?");
     }
