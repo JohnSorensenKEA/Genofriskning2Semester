@@ -8,7 +8,13 @@ public class Case
         String fin = "";
         for(int i = 0; i < a.length; i++)
         {
-            if(checkAllCase(a[i]))
+            // Alternativt: String.toUpperCase().equals(String)
+            /*if(checkAllCase(a[i]))
+            {
+                fin += a[i];
+            }
+             */
+            if(a[i].toUpperCase().equals(a[i]))
             {
                 fin += a[i];
             }
