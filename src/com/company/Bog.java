@@ -8,7 +8,6 @@ public class Bog
 
     public Bog(String isbn, String titel, int udgivelesår)
     {
-
         ISBN = isbn;
         this.titel = titel;
         this.udgivelesår = udgivelesår;
